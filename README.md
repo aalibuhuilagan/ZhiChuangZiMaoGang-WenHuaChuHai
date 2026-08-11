@@ -12,12 +12,16 @@ Original IPs "Ganmimi (Li brocade white bird) × Gualulu (coconut-grove frog)" t
 
 ## 目录结构 / Structure
 
-- `第一版/` — 网页完整内容（直接以该目录发布为站点）
-- `第一版/` — the full web entry (served as the site)
+- `diyiban/` — 网页完整内容（对应「第一版」，因 Render 的 Root Directory 不支持中文而使用拼音；直接以该目录发布为站点）
+- `diyiban/` — the full web entry (previously named 第一版; ASCII name required by Render's Root Directory rule) — served as the site
+
+## 部署 / Deployment
+
+Render 静态站：Root Directory = `diyiban`，Build Command 留空，Publish Directory = `.`
 
 ## 在线预览 / Live Preview
 
-GitHub Pages: <https://aalibuhuilagan.github.io/ZhiChuangZiMaoGang-WenHuaChuHai/>
+GitHub Pages: <https://aalibuhuilagan.github.io/ZhiChuangZiMaoGang-WenHuaChuHai/>（自动跳转到 `diyiban/`）
 
 > 注：GitHub 不支持中文仓库名，仓库名为拼音 `ZhiChuangZiMaoGang-WenHuaChuHai`（智创自贸港-文化出海）。
 > Note: GitHub repo names must be ASCII; the slug uses pinyin of the Chinese title.
