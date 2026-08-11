@@ -17,7 +17,10 @@ Original IPs "Ganmimi (Li brocade white bird) × Gualulu (coconut-grove frog)" t
 
 ## 在线预览 / Live Preview
 
-GitHub Pages: <https://aalibuhuilagan.github.io/智创自贸港-文化出海/>
+GitHub Pages: <https://aalibuhuilagan.github.io/ZhiChuangZiMaoGang-WenHuaChuHai/>
+
+> 注：GitHub 不支持中文仓库名，仓库名为拼音 `ZhiChuangZiMaoGang-WenHuaChuHai`（智创自贸港-文化出海）。
+> Note: GitHub repo names must be ASCII; the slug uses pinyin of the Chinese title.
 
 ## 版权 / Copyright
 
