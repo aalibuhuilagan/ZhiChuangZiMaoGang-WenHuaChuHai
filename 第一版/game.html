@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>出海小游戏 | Mini Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@600;700;900&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body data-lang="zh" data-page="game">
+    <nav id="navbar"></nav>
+
+    <main>
+        <section class="section section-alt">
+            <div class="page-intro reveal">
+                <p class="page-kicker"><span class="zh">把文化玩出来</span><span class="en">Play the culture</span></p>
+                <h2><span class="zh">出海小游戏</span><span class="en">Mini Game</span></h2>
+                <p class="lead"><span class="zh">出海之路不总是一帆风顺。控制甘米米飞跃海洋，收集黎锦纹样，躲开乌云——终点有呱噜噜等你。游戏由网页代码原生实现，无需下载，随时可重开。</span><span class="en">The road abroad is not always smooth. Fly Ganmimi across the sea, collect brocade motifs and dodge clouds — Gualulu is waiting at the finish. The game is coded natively in this page — no downloads needed, restart anytime.</span></p>
+            </div>
+            <div class="game-wrap reveal">
+                <canvas id="gameCanvas" width="900" height="480"></canvas>
+                <div id="gameOver" class="game-over hidden">
+                    <h3 id="gameResult"></h3>
+                    <button id="gameRestart" class="btn btn-primary"><span class="zh">再来一次</span><span class="en">Play Again</span></button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="page-footer"></footer>
+
+    <script src="js/nav.js"></script>
+    <script src="js/i18n.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
