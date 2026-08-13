@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP 产品 | IP Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@600;700;900&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body data-lang="zh" data-page="product">
+    <nav id="navbar"></nav>
+
+    <main>
+        <section class="section">
+            <div class="page-intro reveal">
+                <p class="page-kicker"><span class="zh">把海南的故事带回家</span><span class="en">Take Hainan's story home</span></p>
+                <h2><span class="zh">IP 产品 · 手办首发</span><span class="en">IP Store · Figure Launch</span></h2>
+                <p class="lead"><span class="zh">甘米米与呱噜噜 3D 手办预售开启。点击模型可 360° 旋转、缩放查看细节；点击「立即下单」填写收货信息即可完成预订（本页为参赛演示，不会真实扣款）。</span><span class="en">Pre-order opens for Ganmimi & Gualulu 3D figures. Rotate and zoom the models for details; tap "Order Now" to reserve (demo only — no real payment).</span></p>
+            </div>
+
+            <div class="store-grid">
+                <div class="store-card reveal">
+                    <div class="model-viewer" data-model="甘米米" data-label="甘米米 · Ganmimi" data-tint="#D47B6A">
+                        <button class="model-play" data-play-viewer><span class="zh">播放</span><span class="en">Play</span></button>
+                        <button class="model-reset" data-reset-viewer><span class="zh">复位</span><span class="en">Reset</span></button>
+                    </div>
+                    <div class="product-info">
+                        <h3><span class="zh">甘米米 · 文化信使手办</span><span class="en">Ganmimi · Culture Messenger Figure</span></h3>
+                        <p class="product-price">¥128 <span style="font-size:0.85rem;color:var(--body);font-weight:500;"><span class="zh">约 $18</span><span class="en">≈ $18</span></span></p>
+                        <p class="product-desc"><span class="zh">以黎锦甘工鸟为原型的高约 12cm 手办：白色团子鸟身、珊瑚红腮红、黎锦纹样披风与可动小翅膀，附限量编号底座。</span><span class="en">A 12cm figure inspired by the Li Gan Gong Bird: plump white body, coral blush, Li-brocade cape and movable wings, with a numbered base.</span></p>
+                        <div class="product-tags">
+                            <span><span class="zh">材质：环保 PVC / 树脂</span><span class="en">Eco PVC / Resin</span></span>
+                            <span><span class="zh">尺寸：约 12cm</span><span class="en">~12cm</span></span>
+                            <span><span class="zh">限量编号</span><span class="en">Numbered</span></span>
+                        </div>
+                        <button class="btn btn-primary order-btn" data-order="甘米米 · 文化信使手办 / Ganmimi Figure" data-price="128"><span class="zh">立即下单</span><span class="en">Order Now</span></button>
+                    </div>
+                </div>
+
+                <div class="store-card reveal">
+                    <div class="model-viewer" data-model="呱噜噜" data-label="呱噜噜 · Gualulu" data-tint="#6F9E5C">
+                        <button class="model-play" data-play-viewer><span class="zh">播放</span><span class="en">Play</span></button>
+                        <button class="model-reset" data-reset-viewer><span class="zh">复位</span><span class="en">Reset</span></button>
+                    </div>
+                    <div class="product-info">
+                        <h3><span class="zh">呱噜噜 · 雨林守护手办</span><span class="en">Gualulu · Rainforest Guardian Figure</span></h3>
+                        <p class="product-price">¥128 <span style="font-size:0.85rem;color:var(--body);font-weight:500;"><span class="zh">约 $18</span><span class="en">≈ $18</span></span></p>
+                        <p class="product-desc"><span class="zh">以黎族蛙图腾为原型的 12cm 手办：荷叶帽、圆眼睛与暖金色肚纹，附可替换「呱！有我在！」对话配件。</span><span class="en">A 12cm figure from the Li frog totem: lotus-leaf hat, big round eyes and golden belly motif, with a swap-in "Ribbit! I'm here!" accessory.</span></p>
+                        <div class="product-tags">
+                            <span><span class="zh">材质：环保 PVC / 树脂</span><span class="en">Eco PVC / Resin</span></span>
+                            <span><span class="zh">尺寸：约 12cm</span><span class="en">~12cm</span></span>
+                            <span><span class="zh">可替换配件</span><span class="en">Swap accessory</span></span>
+                        </div>
+                        <button class="btn btn-primary order-btn" data-order="呱噜噜 · 雨林守护手办 / Gualulu Figure" data-price="128"><span class="zh">立即下单</span><span class="en">Order Now</span></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="reveal" style="text-align:center;margin-top:2.5rem;color:var(--body);font-size:0.9rem;">
+                <p><span class="zh">组合装「出海双人组」限时 ¥228（约 $32）：两件手办 + 黎锦纹样明信片一张。</span><span class="en">Bundle "The Going-Global Duo" ¥228 (~$32): both figures + a Li-brocade postcard.</span></p>
+            </div>
+        </section>
+    </main>
+
+    <footer id="page-footer"></footer>
+
+    <!-- 下单弹窗 -->
+    <div id="orderOverlay" class="modal-overlay">
+        <div id="orderModal" class="modal-box">
+            <button id="orderClose" class="modal-close" aria-label="关闭">×</button>
+            <h3><span class="zh">下单信息</span><span class="en">Order Details</span></h3>
+            <p style="margin-bottom:1rem;color:var(--body);font-size:0.92rem;">
+                <span class="zh">商品：</span><span class="en">Item: </span><strong id="orderProduct"></strong>
+                &nbsp;·&nbsp; <span class="zh">单价</span><span class="en">Price</span>：<strong id="orderPrice"></strong>
+            </p>
+            <form id="orderForm">
+                <div class="form-row"><label><span class="zh">收货人 *</span><span class="en">Recipient *</span></label><input id="fName" type="text" placeholder="姓名 / Name" maxlength="30"></div>
+                <div class="form-row"><label><span class="zh">联系电话 *</span><span class="en">Phone *</span></label><input id="fPhone" type="tel" placeholder="+86 ..." maxlength="20"></div>
+                <div class="form-row"><label><span class="zh">收货地址 *</span><span class="en">Address *</span></label><textarea id="fAddr" placeholder="省 / 市 / 区 / 街道 / 门牌号"></textarea></div>
+                <div class="form-row-half">
+                    <div class="form-row"><label><span class="zh">电子邮箱</span><span class="en">Email</span></label><input id="fEmail" type="email" placeholder="name@example.com"></div>
+                    <div class="form-row"><label><span class="zh">数量</span><span class="en">Qty</span></label><input id="orderQty" type="number" min="1" max="10" value="1"></div>
+                </div>
+                <div class="form-row"><label><span class="zh">支付方式</span><span class="en">Payment</span></label>
+                    <select id="orderPay">
+                        <option value="支付宝">支付宝 / Alipay</option>
+                        <option value="微信支付">微信支付 / WeChat Pay</option>
+                        <option value="PayPal">PayPal</option>
+                        <option value="信用卡">信用卡 / Credit Card</option>
+                    </select>
+                </div>
+                <div class="form-row"><label><span class="zh">备注</span><span class="en">Note</span></label><textarea id="fNote" placeholder="可选 / optional"></textarea></div>
+                <div class="order-total"><span><span class="zh">订单合计</span><span class="en">Total</span></span><span id="orderTotal">¥128</span></div>
+                <div class="form-actions">
+                    <button type="button" class="btn btn-ghost" id="orderCancel"><span class="zh">取消</span><span class="en">Cancel</span></button>
+                    <button type="submit" class="btn btn-primary"><span class="zh">提交订单</span><span class="en">Submit</span></button>
+                </div>
+                <p style="margin-top:0.8rem;font-size:0.78rem;color:#9aa4b2;"><span class="zh">本页为参赛作品演示，提交仅生成订单号，不会真实扣款或发货。</span><span class="en">Demo only — submitting generates an order number; no real payment or shipping.</span></p>
+            </form>
+            <div id="orderSuccess" class="order-success" style="display:none;">
+                <p class="check">🎉</p>
+                <h3><span class="zh">下单成功</span><span class="en">Order Confirmed</span></h3>
+                <p style="color:var(--body);margin-top:0.5rem;"><span class="zh">订单号</span><span class="en">Order No.</span>：<strong id="orderNo"></strong></p>
+                <p style="color:var(--body);font-size:0.88rem;margin-top:0.6rem;"><span class="zh">感谢支持甘米米与呱噜噜！</span><span class="en">Thank you for supporting the duo!</span></p>
+                <button class="btn btn-ghost" id="orderDone" style="margin-top:1rem;"><span class="zh">完成</span><span class="en">Done</span></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/nav.js"></script>
+    <script src="js/i18n.js"></script>
+    <script src="js/store.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/vendor/three.min.js"></script>
+    <script src="js/vendor/OrbitControls.js"></script>
+    <script src="js/vendor/model-ganmimi.js"></script>
+    <script src="js/vendor/model-gualulu.js"></script>
+    <script src="js/3dviewer.js"></script>
+    <script>window.initModelViewers && window.initModelViewers(document);</script>
+</body>
+</html>

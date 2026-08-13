@@ -1,8 +1,8 @@
 # 智创自贸港 · 文化出海
 
-东方初芯 AI 原生内容创作大赛 · 主题04 中华文化全球传播 —— 双 IP 文化出海网页作品（第一版）。
+东方初芯 AI 原生内容创作大赛 · 主题04 中华文化全球传播 —— 双 IP 文化出海网页作品（第一版 / 第二版）。
 
-Smart FTEP · Culture Going Global — Dongfang Chuxin AI-native Creation Contest, Theme 04: Chinese Culture, Global Communication. Web entry (V1).
+Smart FTEP · Culture Going Global — Dongfang Chuxin AI-native Creation Contest, Theme 04: Chinese Culture, Global Communication. Web entry (V1 / V2).
 
 ## 作品简介 / About
 
@@ -14,15 +14,19 @@ Original IPs "Ganmimi (Li brocade white bird) × Gualulu (coconut-grove frog)" t
 
 - `diyiban/` — 网页完整内容（对应「第一版」，因 Render 的 Root Directory 不支持中文而使用拼音；直接以该目录发布为站点）
 - `diyiban/` — the full web entry (previously named 第一版; ASCII name required by Render's Root Directory rule) — served as the site
+- `diyerban/` — 第二版完整网页（打磨完善版：甘工鸟传说主线、菜单重构、播放器/生成器升级等）
+- `diyerban/` — the polished V2 web entry
 
 ## 部署 / Deployment
 
-Render 静态站：<https://zichuang-whch-v1.onrender.com/>（Root Directory = `diyiban`，Build Command 留空，Publish Directory = `.`）
+Render 静态站（第一版）：<https://zichuang-whch-v1.onrender.com/>（Root Directory = `diyiban`，Build Command 留空，Publish Directory = `.`）
 
 ## 在线预览 / Live Preview
 
 1. Render（国内访问更快）: <https://zichuang-whch-v1.onrender.com/>
-2. GitHub Pages（自动跳转到 `diyiban/`）: <https://aalibuhuilagan.github.io/ZhiChuangZiMaoGang-WenHuaChuHai/>
+2. GitHub Pages（根目录为版本选择页）: <https://aalibuhuilagan.github.io/ZhiChuangZiMaoGang-WenHuaChuHai/>
+   - 第一版: `.../diyiban/`
+   - 第二版: `.../diyerban/`
 
 > 注：GitHub 不支持中文仓库名，仓库名为拼音 `ZhiChuangZiMaoGang-WenHuaChuHai`（智创自贸港-文化出海）。
 > Note: GitHub repo names must be ASCII; the slug uses pinyin of the Chinese title.
