@@ -21,11 +21,15 @@ Original IPs "Ganmimi (Li brocade white bird) × Gualulu (coconut-grove frog)" t
 
 ## 部署 / Deployment
 
+Render 静态站（第三版 · 复赛终版）：<https://zichuang-whch-v3.onrender.com/>（Root Directory = `disanban`，Build Command 留空，Publish Directory = `.`，由根目录 `render.yaml` Blueprint 管理）
+
+Render 静态站（第二版）：<https://zichuang-whch-v2.onrender.com/>
+
 Render 静态站（第一版）：<https://zichuang-whch-v1.onrender.com/>（Root Directory = `diyiban`，Build Command 留空，Publish Directory = `.`）
 
 ## 在线预览 / Live Preview
 
-1. Render（国内访问更快）: <https://zichuang-whch-v1.onrender.com/>
+1. Render（国内访问更快）: <https://zichuang-whch-v3.onrender.com/>（第三版 · 复赛终版）
 2. GitHub Pages（根目录为版本选择页）: <https://aalibuhuilagan.github.io/ZhiChuangZiMaoGang-WenHuaChuHai/>
    - 第一版: `.../diyiban/`
    - 第二版: `.../diyerban/`
