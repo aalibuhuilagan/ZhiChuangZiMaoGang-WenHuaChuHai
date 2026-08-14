@@ -1,0 +1,10 @@
+# 智创自贸港 · 文化出海 —— 第三版静态站（Render Blueprint）
+# Root Directory = disanban，Build Command 留空，Publish Directory = .
+services:
+  - type: web
+    name: zichuang-whch-v3
+    runtime: static
+    rootDir: disanban
+    buildCommand: ""
+    staticPublishPath: .
+    autoDeployTrigger: commit
