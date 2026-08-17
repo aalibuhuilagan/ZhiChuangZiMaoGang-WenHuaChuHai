@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <title>游戏 · 表情包 | Game & Stickers</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Noto+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/palette-a.css">
+</head>
+<body data-lang="zh" data-page="game">
+    <nav id="navbar"></nav>
+
+    <main>
+        <section class="section section-alt">
+            <div class="page-intro reveal">
+                <p class="page-kicker"><span class="zh">把文化玩出来</span><span class="en">Play the culture</span></p>
+                <h2><span class="zh">出海小游戏 · IP 表情包</span><span class="en">Mini Game & Sticker Pack</span></h2>
+                <p class="lead"><span class="zh">出海之路不总是一帆风顺。控制甘米米飞跃海洋，收集黎锦纹样，躲开乌云——终点有呱噜噜等你。游戏由网页代码原生实现，无需下载，随时可重开。</span><span class="en">The road abroad is not always smooth. Fly Ganmimi across the sea, collect brocade motifs and dodge clouds — Gualulu is waiting at the finish. The game is coded natively in this page — no downloads needed, restart anytime.</span></p>
+            </div>
+            <div class="game-wrap reveal">
+                <canvas id="gameCanvas" width="900" height="480"></canvas>
+                <div id="gameOver" class="game-over hidden">
+                    <h3 id="gameResult"></h3>
+                    <button id="gameRestart" class="btn btn-primary"><span class="zh">再来一次</span><span class="en">Play Again</span></button>
+                </div>
+            </div>
+            <div class="section-head reveal" style="margin-top:4.2rem;">
+                <h2 class="section-title"><span class="zh">IP 表情包 · 一个表情胜过千言万语</span><span class="en">Sticker Pack · One Face Says It All</span></h2>
+                <p class="section-sub"><span class="zh">开心、惊讶、生气、贪吃、得意、犯困、加油、害羞、出发——九个表情，一对活宝，每个都有一段小故事。点下面的链接可以逐个查看并下载。</span><span class="en">Happy, wow, grumpy, yummy, proud, sleepy, go, shy and let's go — nine faces, one silly duo, each with its own little story. Visit the sticker page to view and download them one by one.</span></p>
+            </div>
+            <p class="reveal" style="text-align:center;margin-bottom:1.6rem;"><a class="btn btn-ghost btn-sm" href="stickers.html"><span class="zh">进入表情包页 · 逐个查看与下载 →</span><span class="en">Sticker page · view & download each →</span></a></p>
+            <div class="asset-stack reveal">
+                <figure><img src="assets/landing/stickers-9grid.png" alt="甘米米与呱噜噜表情包九宫格 Sticker sheet"><figcaption><span class="zh">甘米米 × 呱噜噜 · 九个表情</span><span class="en">Ganmimi × Gualulu · Nine Faces</span></figcaption></figure>
+            </div>
+        </section>
+    </main>
+
+    <footer id="page-footer"></footer>
+
+    <script src="js/nav.js"></script>
+    <script src="js/i18n.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,8 +1,8 @@
 # 智创自贸港 · 文化出海
 
-东方初芯 AI 原生内容创作大赛 · 主题04 中华文化全球传播 —— 双 IP 文化出海网页作品（第一版 / 第二版 / 第三版 / 第四版）。
+东方初芯 AI 原生内容创作大赛 · 主题04 中华文化全球传播 —— 双 IP 文化出海网页作品（第一版 / 第二版 / 第三版 / 第四版 / 第五版）。
 
-Smart FTEP · Culture Going Global — Dongfang Chuxin AI-native Creation Contest, Theme 04: Chinese Culture, Global Communication. Web entry (V1 / V2 / V3 / V4).
+Smart FTEP · Culture Going Global — Dongfang Chuxin AI-native Creation Contest, Theme 04: Chinese Culture, Global Communication. Web entry (V1 / V2 / V3 / V4 / V5).
 
 ## 作品简介 / About
 
@@ -20,6 +20,8 @@ Original IPs "Ganmimi (Li brocade white bird) × Gualulu (coconut-grove frog)" t
 - `disanban/` — the V3.1.3 final web entry (two-bird legend, silver-wing transformation, visual refresh)
 - `disiban/` — 第四版完整网页（复赛打磨终版：方案 A「海岛晨光」配色焕新 + 导览封面动态 GIF）
 - `disiban/` — the V4 polished web entry (Palette A "Island Dawn" refresh + animated cover GIFs)
+- `diwuban/` — 第五版完整网页（打磨终版：Apple 风格视觉 + 手机端独立适配 + 全面屏手势 + 活力动画）
+- `diwuban/` — the V5 polished web entry (Apple-style design, mobile-first adaptation, full-screen gestures, lively animations)
 
 ## 部署 / Deployment
 
@@ -37,6 +39,7 @@ Render 静态站（第一版）：<https://zichuang-whch-v1.onrender.com/>（Roo
    - 第二版: `.../diyerban/`
    - 第三版: `.../disanban/`
    - 第四版: `.../disiban/`
+   - 第五版: `.../diwuban/`
 
 > 注：GitHub 不支持中文仓库名，仓库名为拼音 `ZhiChuangZiMaoGang-WenHuaChuHai`（智创自贸港-文化出海）。
 > Note: GitHub repo names must be ASCII; the slug uses pinyin of the Chinese title.

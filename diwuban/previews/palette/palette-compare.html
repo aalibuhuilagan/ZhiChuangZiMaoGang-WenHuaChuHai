@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<title>配色方案对比</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:'PingFang SC','Noto Sans SC',sans-serif; background:#F0F3F2; padding:36px 40px; }
+  h1 { font-size:22px; color:#1F3A41; margin-bottom:6px; }
+  .sub { font-size:13px; color:#5C6F74; margin-bottom:26px; }
+  .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:22px; }
+  .panel { border-radius:18px; overflow:hidden; box-shadow:0 12px 30px rgba(20,50,58,.10); background:#fff; }
+  .p-head { padding:14px 18px; }
+  .p-head b { font-size:16px; display:block; }
+  .p-head span { font-size:12px; opacity:.72; }
+  .p-body { padding:18px; }
+  /* 模拟页面底色 */
+  .page { border-radius:12px; padding:16px; min-height:210px; }
+  .t-title { font-size:20px; font-weight:900; margin-bottom:4px; }
+  .t-body { font-size:12px; line-height:1.65; }
+  .t-link { font-size:12px; margin-top:8px; text-decoration:underline; }
+  .t-en { font-size:11px; margin-top:4px; }
+  .btn-row { margin-top:12px; display:flex; gap:8px; align-items:center; }
+  .btn { padding:6px 14px; border-radius:999px; font-size:12px; font-weight:700; }
+  .ghost { border:1.5px solid; background:transparent; }
+  /* 色卡 */
+  .swatches { display:grid; grid-template-columns:repeat(6,1fr); gap:8px; margin-top:14px; }
+  .sw { border-radius:10px; overflow:hidden; border:1px solid rgba(0,0,0,.06); }
+  .sw i { display:block; height:44px; }
+  .sw span { display:block; font-size:9.5px; text-align:center; padding:5px 2px; color:#3F4B4F; white-space:nowrap; }
+  .note { font-size:11px; color:#516469; margin-top:12px; line-height:1.6; }
+</style>
+</head>
+<body>
+  <h1>首页色调对比：当前 vs 两套新方案</h1>
+  <div class="sub">左：V3.1.3 现状（暖米复古）｜中：方案 A「海岛晨光」（推荐）｜右：方案 B「阳光糖果」（更活泼）</div>
+  <div class="grid">
+
+    <!-- 当前 -->
+    <div class="panel">
+      <div class="p-head"><b>当前 · 暖米复古</b><span>#FDF6E9 暖米底 + 棕墨 + 陶土珊瑚</span></div>
+      <div class="p-body">
+        <div class="page" style="background:#FDF6E9;">
+          <div class="t-title" style="color:#2A1C12;">甘米米 × 呱噜噜</div>
+          <div class="t-body" style="color:#45362B;">整体偏暖黄、像旧纸张，情绪沉稳但不够轻快。</div>
+          <div class="t-link" style="color:#2F8E9E;">进入 IP 形象馆 →</div>
+          <div class="t-en" style="color:#2F8E9E;"><span style="color:#D9A514;">/</span> Enter the Duo →</div>
+          <div class="btn-row"><span class="btn" style="background:#E45D49;color:#fff;">开始探索</span><span class="ghost btn" style="border-color:#D9A514;color:#2A1C12;">了解更多</span></div>
+        </div>
+        <div class="swatches">
+          <div class="sw"><i style="background:#FDF6E9"></i><span>底 #FDF6E9</span></div>
+          <div class="sw"><i style="background:#2A1C12"></i><span>墨 #2A1C12</span></div>
+          <div class="sw"><i style="background:#E45D49"></i><span>珊瑚 #E45D49</span></div>
+          <div class="sw"><i style="background:#D9A514"></i><span>金 #D9A514</span></div>
+          <div class="sw"><i style="background:#2F8E9E"></i><span>海青 #2F8E9E</span></div>
+          <div class="sw"><i style="background:#2FA468"></i><span>蛙青 #2FA468</span></div>
+        </div>
+        <div class="note">暖米+棕墨让页面显"厚"；白字在珊瑚上对比 3.5:1，按钮偏浅。</div>
+      </div>
+    </div>
+
+    <!-- 方案 A -->
+    <div class="panel">
+      <div class="p-head"><b>方案 A · 海岛晨光 ★推荐</b><span>海玻璃白底 + 深海青墨 + 珊瑚一点红</span></div>
+      <div class="p-body">
+        <div class="page" style="background:#F4FAF8;">
+          <div class="t-title" style="color:#13363E;">甘米米 × 呱噜噜</div>
+          <div class="t-body" style="color:#3D5A61;">清透的"海玻璃"底色，像海南清晨，简洁明亮有呼吸感。</div>
+          <div class="t-link" style="color:#0E7F92;">进入 IP 形象馆 →</div>
+          <div class="t-en" style="color:#0E7F92;"><span style="color:#DFA810;">/</span> Enter the Duo →</div>
+          <div class="btn-row"><span class="btn" style="background:#D6483A;color:#fff;">开始探索</span><span class="ghost btn" style="border-color:#DFA810;color:#13363E;">了解更多</span></div>
+        </div>
+        <div class="swatches">
+          <div class="sw"><i style="background:#F4FAF8"></i><span>底 #F4FAF8</span></div>
+          <div class="sw"><i style="background:#13363E"></i><span>墨 #13363E</span></div>
+          <div class="sw"><i style="background:#EE6350"></i><span>珊瑚 #EE6350</span></div>
+          <div class="sw"><i style="background:#DFA810"></i><span>金 #DFA810</span></div>
+          <div class="sw"><i style="background:#0E7F92"></i><span>海青 #0E7F92</span></div>
+          <div class="sw"><i style="background:#2FA468"></i><span>蛙青 #2FA468</span></div>
+        </div>
+        <div class="note">文字对比 7:1 起，白字按钮 4.3:1；金色上改深墨字（6:1），链接海青 4.4:1。</div>
+      </div>
+    </div>
+
+    <!-- 方案 B -->
+    <div class="panel">
+      <div class="p-head"><b>方案 B · 阳光糖果</b><span>奶油白底 + 高饱和珊瑚/金/湖蓝</span></div>
+      <div class="p-body">
+        <div class="page" style="background:#FFFBF1;">
+          <div class="t-title" style="color:#2B2B33;">甘米米 × 呱噜噜</div>
+          <div class="t-body" style="color:#4E4E59;">更甜更闹的游乐园感，色彩浓度高、更抢眼，适合低龄向。</div>
+          <div class="t-link" style="color:#00A6C8;">进入 IP 形象馆 →</div>
+          <div class="t-en" style="color:#00A6C8;"><span style="color:#FFC53D;">/</span> Enter the Duo →</div>
+          <div class="btn-row"><span class="btn" style="background:#E84A3D;color:#fff;">开始探索</span><span class="ghost btn" style="border-color:#FFC53D;color:#2B2B33;">了解更多</span></div>
+        </div>
+        <div class="swatches">
+          <div class="sw"><i style="background:#FFFBF1"></i><span>底 #FFFBF1</span></div>
+          <div class="sw"><i style="background:#2B2B33"></i><span>墨 #2B2B33</span></div>
+          <div class="sw"><i style="background:#FF6B5E"></i><span>珊瑚 #FF6B5E</span></div>
+          <div class="sw"><i style="background:#FFC53D"></i><span>金 #FFC53D</span></div>
+          <div class="sw"><i style="background:#00A6C8"></i><span>湖蓝 #00A6C8</span></div>
+          <div class="sw"><i style="background:#7BD3A0"></i><span>薄荷 #7BD3A0</span></div>
+        </div>
+        <div class="note">活泼度最高，但整体饱和度偏高，"简洁"感弱一些，适合做二级风格。</div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
