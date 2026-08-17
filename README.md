@@ -35,6 +35,8 @@ Render 静态站（第一版）：<https://zichuang-whch-v1.onrender.com/>（Roo
 
 Render 静态站（第五版 · 打磨终版）：<https://zichuang-whch-v5.onrender.com/>（Root Directory = `diwuban`，Build Command 留空，Publish Directory = `.`，由根目录 `render.yaml` Blueprint 自动同步）
 
+Render 静态站（第六版 · 打磨终版）：<https://zichuang-whch-v6.onrender.com/>（Root Directory = `diliuban`，Build Command 留空，Publish Directory = `.`，由根目录 `render.yaml` Blueprint 自动同步）
+
 ## 在线预览 / Live Preview
 
 1. Render（国内访问更快）: <https://zichuang-whch-v3.onrender.com/>（第三版 · 复赛终版）
