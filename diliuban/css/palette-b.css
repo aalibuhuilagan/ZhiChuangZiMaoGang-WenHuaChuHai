@@ -1,0 +1,37 @@
+/* ===== 方案 B「阳光糖果」：奶油白底 + 高饱和珊瑚/金/湖蓝/薄荷 =====
+   在 main.css 之后加载，仅覆盖配色变量与少量派生色。 */
+:root {
+    --bg: #FFFBF1;
+    --bg-alt: #FFF2DC;
+    --card: #FFFFFF;
+    --ink: #2B2B33;
+    --body: #4E4E59;
+    --coral: #FF6B5E;
+    --coral-deep: #E84A3D;
+    --gold: #FFC53D;
+    --teal: #0087A9;
+    --green: #7BD3A0;
+    --frog: #2FA468;
+    --leaf: #3F8F5E;
+
+    --nav-bg: rgba(255, 251, 241, 0.94);
+    --hero-fallback: #FFFBF1;
+    --shadow-rgb: 43, 43, 51;
+    --btn-primary-glow: rgba(232, 74, 61, 0.30);
+    --section-border: rgba(255, 197, 61, 0.40);
+    --thumb-border: rgba(255, 197, 61, 0.45);
+    --thumb-base: #FFF9EE;
+    --model-bg: radial-gradient(circle at 50% 35%, #FFF6E6, #FFE9C4);
+}
+
+/* 金色底上改用深墨字（原白字对比不足 3:1，现 8.9:1） */
+.btn-ghost:hover { color: var(--ink); }
+
+/* 卡片小标签边框随方案色 */
+.card-subs a { border-color: var(--thumb-border); }
+
+/* 封面底纹调成糖果色系 */
+.home-card-thumb.thumb-tan { background: linear-gradient(180deg, #FFF3D6 0%, #FFE3A3 100%); }
+.home-card-thumb.thumb-warm { background: linear-gradient(160deg, #FFE9D6 0%, #FFD2B8 100%); }
+.home-card-thumb.thumb-paper { background: linear-gradient(180deg, #FFFDF5 0%, #FFF0D0 100%); }
+.home-card-thumb.thumb-spring { background: linear-gradient(180deg, #EAFBF1 0%, #C9EFD8 100%); }
