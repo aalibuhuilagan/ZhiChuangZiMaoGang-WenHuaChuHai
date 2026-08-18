@@ -29,3 +29,10 @@ services:
     buildCommand: ""
     staticPublishPath: .
     autoDeployTrigger: commit
+  - type: web
+    name: zichuang-whch-v7
+    runtime: static
+    rootDir: diqiban
+    buildCommand: ""
+    staticPublishPath: .
+    autoDeployTrigger: commit
