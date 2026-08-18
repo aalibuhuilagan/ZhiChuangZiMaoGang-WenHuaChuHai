@@ -39,6 +39,8 @@ Render 静态站（第五版 · 打磨终版）：<https://zichuang-whch-v5.onre
 
 Render 静态站（第六版 · 打磨终版）：<https://zichuang-whch-v6.onrender.com/>（Root Directory = `diliuban`，Build Command 留空，Publish Directory = `.`，由根目录 `render.yaml` Blueprint 自动同步）
 
+Render 静态站（第七版 · 打磨终版）：<https://zichuang-whch-v7.onrender.com/>（Root Directory = `diqiban`，Build Command 留空，Publish Directory = `.`，由根目录 `render.yaml` Blueprint 自动同步）
+
 ## 在线预览 / Live Preview
 
 1. Render（国内访问更快）: <https://zichuang-whch-v3.onrender.com/>（第三版 · 复赛终版）
@@ -50,6 +52,7 @@ Render 静态站（第六版 · 打磨终版）：<https://zichuang-whch-v6.onre
    - 第五版: `.../diwuban/`
    - 第六版: `.../diliuban/`
    - 第七版: `.../diqiban/`
+3. Render（第七版 · 打磨终版）: <https://zichuang-whch-v7.onrender.com/>
 
 > 注：GitHub 不支持中文仓库名，仓库名为拼音 `ZhiChuangZiMaoGang-WenHuaChuHai`（智创自贸港-文化出海）。
 > Note: GitHub repo names must be ASCII; the slug uses pinyin of the Chinese title.
