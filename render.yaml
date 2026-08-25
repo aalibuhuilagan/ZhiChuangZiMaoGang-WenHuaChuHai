@@ -36,3 +36,10 @@ services:
     buildCommand: ""
     staticPublishPath: .
     autoDeployTrigger: commit
+  - type: web
+    name: zichuang-whch-v8
+    runtime: static
+    rootDir: dibaban
+    buildCommand: ""
+    staticPublishPath: .
+    autoDeployTrigger: commit
