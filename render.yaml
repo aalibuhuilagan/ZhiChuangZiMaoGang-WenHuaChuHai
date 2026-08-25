@@ -1,0 +1,38 @@
+# 智创自贸港 · 文化出海 —— 静态站（Render Blueprint）
+# Root Directory = disanban/disiban/diwuban/diliuban，Build Command 留空，Publish Directory = .
+services:
+  - type: web
+    name: zichuang-whch-v3
+    runtime: static
+    rootDir: disanban
+    buildCommand: ""
+    staticPublishPath: .
+    autoDeployTrigger: commit
+  - type: web
+    name: zichuang-whch-v4
+    runtime: static
+    rootDir: disiban
+    buildCommand: ""
+    staticPublishPath: .
+    autoDeployTrigger: commit
+  - type: web
+    name: zichuang-whch-v5
+    runtime: static
+    rootDir: diwuban
+    buildCommand: ""
+    staticPublishPath: .
+    autoDeployTrigger: commit
+  - type: web
+    name: zichuang-whch-v6
+    runtime: static
+    rootDir: diliuban
+    buildCommand: ""
+    staticPublishPath: .
+    autoDeployTrigger: commit
+  - type: web
+    name: zichuang-whch-v7
+    runtime: static
+    rootDir: diqiban
+    buildCommand: ""
+    staticPublishPath: .
+    autoDeployTrigger: commit

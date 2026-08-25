@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <title>故事三 · 南洋骑楼 | Nanyang Qilou</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Noto+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/palette-a.css">
+</head>
+<body data-lang="zh" data-page="story-3">
+    <nav id="navbar"></nav>
+
+    <main>
+        <section class="section">
+            <div class="page-intro reveal">
+                <p class="page-kicker"><span class="zh">海口骑楼老街 · 侨乡记忆</span><span class="en">Haikou Qilou · Memory of the overseas Chinese</span></p>
+                <h2><span class="zh">故事三 · 南洋骑楼</span><span class="en">Story 3 · Nanyang Qilou</span></h2>
+                <p class="lead"><span class="zh">漂洋过海的人，把故乡背在身上。一纸侨批，家书抵万金。看完漫画，写一句家书，呱噜噜帮你盖章，寄给远方。</span><span class="en">Those who crossed the sea carried home on their backs. One qiaopi letter — a treasure from home. Write a line home and let Gualulu stamp it.</span></p>
+            </div>
+            <div class="comic-story">
+                <div class="comic-stage reveal">
+                    <div class="comic-deck" data-story="story-3" data-duration="3.8"></div>
+                    <div class="comic-controls">
+                        <button class="cp-btn cp-play" aria-label="播放漫画 / Play comic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 5.2v13.6L19.2 12z"/></svg></button>
+                        <span class="cp-tip"><span class="zh">播放</span><span class="en">Play</span></span>
+                        <button class="cp-btn cp-pause" aria-label="暂停 / Pause"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M8.5 5.5v13M15.5 5.5v13"/></svg></button>
+                        <span class="cp-tip"><span class="zh">暂停</span><span class="en">Pause</span></span>
+                    </div>
+                </div>
+                <div class="interactive-card reveal">
+                    <h3><span class="zh">侨批明信片</span><span class="en">Qiaopi Postcard</span></h3>
+                    <p class="zh">写一句话，呱噜噜帮你盖章，寄给远方的家乡与世界。</p>
+                    <p class="en">Write a line — Gualulu stamps it — send it home or across the world.</p>
+                    <input id="postcardInput" type="text" maxlength="30" placeholder="家书一句 / A line home">
+                    <button id="postcardMake" class="btn btn-primary btn-sm"><span class="zh">生成明信片</span><span class="en">Make Postcard</span></button>
+                    <canvas id="postcardCanvas" width="480" height="320"></canvas>
+                    <button id="postcardDl" class="btn btn-ghost btn-sm"><span class="zh">下载</span><span class="en">Download</span></button>
+                </div>
+            </div>
+            <p class="reveal" style="text-align:center;margin-top:2rem;"><a class="btn btn-ghost btn-sm" href="comics.html"><span class="zh">返回漫画总览 →</span><span class="en">Back to comics →</span></a></p>
+        </section>
+    </main>
+
+    <footer id="page-footer"></footer>
+
+    <script src="js/nav.js"></script>
+    <script src="js/i18n.js"></script>
+    <script src="js/subtitles.js"></script>
+    <script src="js/comic.js"></script>
+    <script src="js/postcard-art.js"></script>
+    <script src="js/interactives.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

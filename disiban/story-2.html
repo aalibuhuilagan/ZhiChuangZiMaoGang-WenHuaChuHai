@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>故事二 · 文昌航天 | Wenchang Space</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;900&family=Noto+Sans:wght@400;600;700;800&family=Poppins:wght@600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/palette-a.css">
+</head>
+<body data-lang="zh" data-page="story-2">
+    <nav id="navbar"></nav>
+
+    <main>
+        <section class="section">
+            <div class="page-intro reveal">
+                <p class="page-kicker"><span class="zh">文昌 · 中国首个滨海航天发射场</span><span class="en">Wenchang · China's first coastal spaceport</span></p>
+                <h2><span class="zh">故事二 · 文昌航天</span><span class="en">Story 2 · Wenchang Space</span></h2>
+                <p class="lead"><span class="zh">从椰林到星辰。火箭在椰风海韵中点火，把海南人的梦想送上天。看完漫画，写下一个愿望让它发射；同名 AI 短视频也在本页。</span><span class="en">From coconut groves to the stars. The rocket ignites in the island breeze, carrying Hainan's dreams skyward. Read the comic, launch a wish, and watch the AI short film.</span></p>
+            </div>
+            <div class="comic-story">
+                <div class="comic-stage reveal">
+                    <div class="comic-deck" data-story="story-2" data-duration="3.8"></div>
+                    <div class="comic-controls">
+                        <button class="cp-btn cp-play" aria-label="播放漫画 / Play comic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 5.2v13.6L19.2 12z"/></svg></button>
+                        <span class="cp-tip"><span class="zh">播放</span><span class="en">Play</span></span>
+                        <button class="cp-btn cp-pause" aria-label="暂停 / Pause"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M8.5 5.5v13M15.5 5.5v13"/></svg></button>
+                        <span class="cp-tip"><span class="zh">暂停</span><span class="en">Pause</span></span>
+                    </div>
+                </div>
+                <p class="reveal" style="text-align:center;margin:1.5rem 0 0;"><a class="btn btn-ghost btn-sm" href="video.html"><span class="zh">看同名 AI 短视频《从椰林到星辰》→</span><span class="en">Watch the AI short film →</span></a></p>
+                <div class="interactive-card reveal">
+                    <h3><span class="zh">愿望火箭</span><span class="en">Wish Rocket</span></h3>
+                    <p class="zh">写下你的愿望，送它飞向星辰。</p>
+                    <p class="en">Write a wish and launch it to the stars.</p>
+                    <input id="wishInput" type="text" maxlength="24" placeholder="你的愿望 / Your wish">
+                    <button id="wishLaunch" class="btn btn-primary btn-sm"><span class="zh">发射</span><span class="en">Launch</span></button>
+                    <div id="wishStage" class="wish-stage">
+                        <div id="wishRocket" class="wish-rocket" aria-hidden="true">🚀</div>
+                        <p id="wishMsg" class="wish-msg"></p>
+                    </div>
+                </div>
+            </div>
+            <p class="reveal" style="text-align:center;margin-top:2rem;"><a class="btn btn-ghost btn-sm" href="story-3.html"><span class="zh">下一个故事：南洋骑楼 →</span><span class="en">Next story: Nanyang Qilou →</span></a></p>
+        </section>
+    </main>
+
+    <footer id="page-footer"></footer>
+
+    <script src="js/nav.js"></script>
+    <script src="js/i18n.js"></script>
+    <script src="js/subtitles.js"></script>
+    <script src="js/comic.js"></script>
+    <script src="js/interactives.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

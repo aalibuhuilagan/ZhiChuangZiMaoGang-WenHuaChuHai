@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 短视频 | Short Film</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@600;700;900&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body data-lang="zh" data-page="video">
+    <nav id="navbar"></nav>
+
+    <main>
+        <section class="section">
+            <div class="page-intro reveal">
+                <p class="page-kicker"><span class="zh">文昌航天 · AI 原生短片</span><span class="en">Wenchang Space · AI-native short film</span></p>
+                <h2><span class="zh">《从椰林到星辰》</span><span class="en">"From the Coconut Groves to the Stars"</span></h2>
+                <p class="lead"><span class="zh">为本次参赛创作的 84 秒短片：从海面钩子到火箭点火，从椰影星空到谢幕留白。旁白、字幕、背景音分轨完成——点右上角语言键，旁白与字幕会一起切换为中文 / English / 中英对照。</span><span class="en">An 84-second film made for this contest: from the opening hook to the rocket ignition, from coconut silhouettes to the starry sky. Narration, captions and audio are layered in tracks — switch the language buttons to watch it in Chinese, English or both.</span></p>
+            </div>
+
+            <div class="media-slot reveal" style="max-width:960px;margin:0 auto;">
+                <div class="slot-box slot-box-video">
+                    <video id="story2-video" class="story2-video" controls preload="metadata"
+                        data-src-zh="assets/story-2-space/video-zh.mp4"
+                        data-src-en="assets/story-2-space/video-en.mp4"
+                        data-src-both="assets/story-2-space/video-both.mp4"
+                        src="assets/story-2-space/video-zh.mp4"
+                        poster="assets/story-2-space/video-poster.jpg"></video>
+                </div>
+            </div>
+
+            <div class="voice-group reveal" style="max-width:960px;margin:2.5rem auto 0;">
+                <h3 class="voice-group-title"><span class="zh">故事旁白 · 双角色台词</span><span class="en">Story Narration · Duo Voices</span></h3>
+                <div class="voice-grid">
+                    <div class="voice-item"><p class="voice-label"><span class="zh">中文旁白（甘米米 × 呱噜噜）</span><span class="en">Chinese narration (Ganmimi × Gualulu)</span></p><audio controls preload="none" src="assets/audio/narration/故事二旁白-zh-拼接.mp3"></audio></div>
+                    <div class="voice-item"><p class="voice-label"><span class="zh">English narration</span><span class="en">English narration</span></p><audio controls preload="none" src="assets/audio/narration/故事二旁白-en-拼接.mp3"></audio></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="page-footer"></footer>
+
+    <script src="js/nav.js"></script>
+    <script src="js/i18n.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

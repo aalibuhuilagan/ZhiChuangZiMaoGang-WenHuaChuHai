@@ -1,0 +1,45 @@
+/* ===== 方案 A「海岛晨光」：海玻璃白底 + 深海青墨 + 珊瑚一点红 =====
+   在 main.css 之后加载，仅覆盖配色变量与少量派生色。 */
+:root {
+    --bg: #F4FAF8;
+    --bg-alt: #E6F1ED;
+    --card: #FFFFFF;
+    --ink: #13363E;
+    --body: #3D5A61;
+    --coral: #EE6350;
+    --coral-deep: #D6483A;
+    --gold: #DFA810;
+    --teal: #0E7F92;
+    --green: #6FAE87;
+    --frog: #2FA468;
+    --leaf: #3F8F5E;
+
+    --nav-bg: rgba(244, 250, 248, 0.94);
+    --hero-fallback: #F4FAF8;
+    --shadow-rgb: 19, 54, 62;
+    --btn-primary-glow: rgba(214, 72, 58, 0.30);
+    --section-border: rgba(14, 127, 146, 0.22);
+    --thumb-border: rgba(14, 127, 146, 0.28);
+    --thumb-base: #F4FAF8;
+    --model-bg: radial-gradient(circle at 50% 35%, #EEF6F3, #DBEAE5);
+    --footer-glow: rgba(14, 127, 146, 0.08);
+    --footer-border: rgba(14, 127, 146, 0.22);
+    --overlay-ink: rgba(19, 54, 62, 0.78);
+    --lyrics-bg: rgba(244, 250, 248, 0.62);
+    --input-border: rgba(19, 54, 62, 0.30);
+    --coral-glow-soft: rgba(238, 99, 80, 0.20);
+    --panel-border: rgba(14, 127, 146, 0.30);
+    --badge-bg: rgba(223, 168, 16, 0.94);
+}
+
+/* 金色底上改用深墨字（原白字对比不足 3:1，现 6:1） */
+.btn-ghost:hover { color: var(--ink); }
+.ip-view-tag, .chapter-no, .sticker-no { color: var(--ink); }
+
+/* 卡片小标签边框随方案色 */
+.card-subs a { border-color: var(--thumb-border); }
+
+/* 封面底纹里偏暖的两档，改为海玻璃/浅青，保持"简洁轻快" */
+.home-card-thumb.thumb-tan { background: linear-gradient(180deg, #EAF3F0 0%, #D5E6E1 100%); }
+.home-card-thumb.thumb-warm { background: linear-gradient(160deg, #F0F8F5 0%, #DCEBE6 100%); }
+.home-card-thumb.thumb-paper { background: linear-gradient(180deg, #F6FBFA 0%, #E2EFEB 100%); }

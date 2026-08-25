@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>多语之声 | Voices</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;900&family=Noto+Sans:wght@400;600;700;800&family=Poppins:wght@600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/palette-a.css">
+</head>
+<body data-lang="zh" data-page="voices">
+    <nav id="navbar"></nav>
+
+    <main>
+        <section class="section section-alt">
+            <div class="page-intro reveal">
+                <p class="page-kicker"><span class="zh">让世界听懂海南</span><span class="en">Let the world hear Hainan</span></p>
+                <h2><span class="zh">多语之声</span><span class="en">Voices in Many Languages</span></h2>
+                <p class="lead"><span class="zh">让世界听懂海南，先从听懂「你好」开始。主题曲、双 IP 欢迎语、8 种语言问候与故事旁白——全部由 AI 生成，多语种、多声线，让文化出海自带声音。</span><span class="en">To make the world hear Hainan, start with a "hello". Theme song, IP welcomes, 8-language greetings and story narration — all AI-made, multilingual and multi-voiced, so culture sets sail with its own sound.</span></p>
+            </div>
+
+            <div class="voice-group reveal">
+                <h3 class="voice-group-title"><span class="zh">主题曲《甘米米之歌》</span><span class="en">Theme Song "Song of Ganmimi"</span></h3>
+                <div class="music-player">
+                    <div class="mp-art">
+                        <div class="mp-disc" id="mpDisc">
+                            <div class="mp-disc-cover"><img src="assets/ip/cp-poster.png" alt="《甘米米之歌》封面"></div>
+                            <div class="mp-disc-hole"></div>
+                        </div>
+                        <div class="mp-art-pets">
+                            <img src="assets/ip/pet-ganmimi-tight.png" alt="甘米米">
+                            <img src="assets/ip/pet-gualulu-tight.png" alt="呱噜噜">
+                        </div>
+                    </div>
+                    <div class="mp-main">
+                        <p class="mp-kicker"><span class="zh">AI 原创主题曲 · 中文 / English 双版本</span><span class="en">AI Theme Song · Chinese / English</span></p>
+                        <h4 class="mp-title"><span class="zh">甘米米之歌</span><span class="en">Song of Ganmimi</span></h4>
+                        <p class="mp-artist"><span class="zh">甘米米 × 呱噜噜 · 东方初芯</span><span class="en">Ganmimi × Gualulu · Dongfang Chuxin</span></p>
+                        <div class="mp-controls">
+                            <button class="mp-play" id="themePlay" aria-label="播放 / 暂停">
+                                <svg class="tp-icon-play" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 5.2v13.6L19.2 12z"/></svg>
+                                <svg class="tp-icon-pause" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M8.5 5.5v13M15.5 5.5v13"/></svg>
+                            </button>
+                            <span class="mp-state"><span class="zh">播放主题曲</span><span class="en">Play Theme</span></span>
+                        </div>
+                        <div class="mp-progress">
+                            <span class="mp-time" id="themeTime">0:00</span>
+                            <input class="tp-track" id="themeTrack" type="range" min="0" max="100" step="0.1" value="0" aria-label="进度">
+                            <span class="mp-time" id="themeDur">0:00</span>
+                        </div>
+                        <div class="mp-lyrics" id="mpLyrics" aria-live="off"></div>
+                    </div>
+                </div>
+                <audio id="theme-song" preload="none"
+                    data-src-zh="assets/audio/music/甘米米之歌-zh.mp3"
+                    data-src-en="assets/audio/music/甘米米之歌-en-v1.mp3"
+                    src="assets/audio/music/甘米米之歌-zh.mp3"></audio>
+            </div>
+            <div class="voice-group reveal">
+                <h3 class="voice-group-title"><span class="zh">双 IP 欢迎语</span><span class="en">IP Welcomes</span></h3>
+                <div class="voice-list">
+                    <button class="voice-row" data-src="assets/audio/voices/甘米米-欢迎-zh.mp3">
+                        <span class="vr-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 5.2v13.6L19.2 12z"/></svg><span class="vr-bars"><i></i><i></i><i></i></span></span>
+                        <span class="vr-label"><span class="zh">甘米米 · 中文</span><span class="en">Ganmimi · Chinese</span></span>
+                    </button>
+                    <button class="voice-row" data-src="assets/audio/voices/甘米米-欢迎-en.mp3">
+                        <span class="vr-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 5.2v13.6L19.2 12z"/></svg><span class="vr-bars"><i></i><i></i><i></i></span></span>
+                        <span class="vr-label"><span class="zh">甘米米 · English</span><span class="en">Ganmimi · English</span></span>
+                    </button>
+                    <button class="voice-row" data-src="assets/audio/voices/呱噜噜-欢迎-zh.mp3">
+                        <span class="vr-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 5.2v13.6L19.2 12z"/></svg><span class="vr-bars"><i></i><i></i><i></i></span></span>
+                        <span class="vr-label"><span class="zh">呱噜噜 · 中文</span><span class="en">Gualulu · Chinese</span></span>
+                    </button>
+                    <button class="voice-row" data-src="assets/audio/voices/呱噜噜-欢迎-en.mp3">
+                        <span class="vr-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 5.2v13.6L19.2 12z"/></svg><span class="vr-bars"><i></i><i></i><i></i></span></span>
+                        <span class="vr-label"><span class="zh">呱噜噜 · English</span><span class="en">Gualulu · English</span></span>
+                    </button>
+                    <button class="voice-row" data-src="assets/audio/voices/双IP-对话-zh-拼接.mp3">
+                        <span class="vr-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 5.2v13.6L19.2 12z"/></svg><span class="vr-bars"><i></i><i></i><i></i></span></span>
+                        <span class="vr-label"><span class="zh">双 IP 对话 · 中文</span><span class="en">Duo Chat · Chinese</span></span>
+                    </button>
+                    <button class="voice-row" data-src="assets/audio/voices/双IP-对话-en-拼接.mp3">
+                        <span class="vr-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 5.2v13.6L19.2 12z"/></svg><span class="vr-bars"><i></i><i></i><i></i></span></span>
+                        <span class="vr-label"><span class="zh">双 IP 对话 · English</span><span class="en">Duo Chat · English</span></span>
+                    </button>
+                </div>
+            </div>
+            <div class="voice-group reveal">
+                <h3 class="voice-group-title"><span class="zh">8 种语言问候（甘米米）</span><span class="en">8-Language Greetings (Ganmimi)</span></h3>
+                <div class="voice-list">
+                    <button class="voice-row" data-src="assets/audio/greetings/多语问候-01-中文.mp3"><span class="vr-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 5.2v13.6L19.2 12z"/></svg><span class="vr-bars"><i></i><i></i><i></i></span></span><span class="vr-label">中文</span></button>
+                    <button class="voice-row" data-src="assets/audio/greetings/多语问候-02-english.mp3"><span class="vr-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 5.2v13.6L19.2 12z"/></svg><span class="vr-bars"><i></i><i></i><i></i></span></span><span class="vr-label">English</span></button>
+                    <button class="voice-row" data-src="assets/audio/greetings/多语问候-03-espanol.mp3"><span class="vr-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 5.2v13.6L19.2 12z"/></svg><span class="vr-bars"><i></i><i></i><i></i></span></span><span class="vr-label">Español</span></button>
+                    <button class="voice-row" data-src="assets/audio/greetings/多语问候-04-francais.mp3"><span class="vr-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 5.2v13.6L19.2 12z"/></svg><span class="vr-bars"><i></i><i></i><i></i></span></span><span class="vr-label">Français</span></button>
+                    <button class="voice-row" data-src="assets/audio/greetings/多语问候-05-japanese.mp3"><span class="vr-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 5.2v13.6L19.2 12z"/></svg><span class="vr-bars"><i></i><i></i><i></i></span></span><span class="vr-label">日本語</span></button>
+                    <button class="voice-row" data-src="assets/audio/greetings/多语问候-06-korean.mp3"><span class="vr-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 5.2v13.6L19.2 12z"/></svg><span class="vr-bars"><i></i><i></i><i></i></span></span><span class="vr-label">한국어</span></button>
+                    <button class="voice-row" data-src="assets/audio/greetings/多语问候-07-arabic.mp3"><span class="vr-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 5.2v13.6L19.2 12z"/></svg><span class="vr-bars"><i></i><i></i><i></i></span></span><span class="vr-label">العربية</span></button>
+                    <button class="voice-row" data-src="assets/audio/greetings/多语问候-08-russian.mp3"><span class="vr-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 5.2v13.6L19.2 12z"/></svg><span class="vr-bars"><i></i><i></i><i></i></span></span><span class="vr-label">Русский</span></button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="page-footer"></footer>
+
+    <script src="js/nav.js"></script>
+    <script src="js/i18n.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/voices.js"></script>
+</body>
+</html>

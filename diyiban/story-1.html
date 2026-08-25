@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>故事一 · 黎锦传说 | Li Brocade</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@600;700;900&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body data-lang="zh" data-page="story-1">
+    <nav id="navbar"></nav>
+
+    <main>
+        <section class="section">
+            <div class="page-intro reveal">
+                <p class="page-kicker"><span class="zh">黎锦 · 中国非物质文化遗产</span><span class="en">Li Brocade · China's Intangible Heritage</span></p>
+                <h2><span class="zh">故事一 · 黎锦与甘工鸟传说</span><span class="en">Story 1 · Li Brocade & the Gan Gong Bird</span></h2>
+                <p class="lead"><span class="zh">每一根丝线，都是一句情话。黎族少女化作神鸟"甘工、甘工"日夜啼鸣——黎锦上最美的纹样，因此有了心跳。看完漫画，再用纹样生成器织一条属于你的黎锦。</span><span class="en">Every thread tells a love story. The Li girl became the sacred bird, singing day and night — the most beautiful motif in Li brocade came alive. Read the comic, then weave your own pattern.</span></p>
+            </div>
+            <div class="comic-story">
+                <div class="comics-grid" data-story="story-1"></div>
+                <div class="interactive-card reveal">
+                    <h3><span class="zh">黎锦纹样生成器</span><span class="en">Li Brocade Pattern Maker</span></h3>
+                    <p class="zh">选纹样 + 配色（呱噜噜推荐），生成属于你的黎锦纹样，下载分享。</p>
+                    <p class="en">Pick motifs and colors — Gualulu suggests the palette — then make, download and share your own Li brocade pattern.</p>
+                    <div class="pattern-tool">
+                        <div class="tool-row">
+                            <span class="zh">纹样：</span><span class="en">Motifs:</span>
+                            <label><input type="radio" name="motif" value="bird" checked> <span class="zh">甘工鸟</span><span class="en">Gan Gong Bird</span></label>
+                            <label><input type="radio" name="motif" value="person"> <span class="zh">人形纹</span><span class="en">Human</span></label>
+                            <label><input type="radio" name="motif" value="frog"> <span class="zh">蛙纹</span><span class="en">Frog</span></label>
+                        </div>
+                        <div class="tool-row">
+                            <span class="zh">配色：</span><span class="en">Palette:</span>
+                            <button class="swatch" data-color="#D4AF37" style="background:#D4AF37" aria-label="gold"></button>
+                            <button class="swatch" data-color="#8AAEB5" style="background:#8AAEB5" aria-label="teal"></button>
+                            <button class="swatch" data-color="#A0B89A" style="background:#A0B89A" aria-label="green"></button>
+                            <button class="swatch active" data-color="#D47B6A" style="background:#D47B6A" aria-label="coral"></button>
+                        </div>
+                        <canvas id="patternCanvas" width="360" height="360"></canvas>
+                        <div class="tool-actions">
+                            <button id="patternGen" class="btn btn-primary btn-sm"><span class="zh">生成纹样</span><span class="en">Generate</span></button>
+                            <button id="patternDl" class="btn btn-ghost btn-sm"><span class="zh">下载 PNG</span><span class="en">Download</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="reveal" style="text-align:center;margin-top:2rem;"><a class="btn btn-ghost btn-sm" href="story-2.html"><span class="zh">下一个故事：文昌航天 →</span><span class="en">Next story: Wenchang Space →</span></a></p>
+        </section>
+    </main>
+
+    <footer id="page-footer"></footer>
+
+    <script src="js/nav.js"></script>
+    <script src="js/i18n.js"></script>
+    <script src="js/subtitles.js"></script>
+    <script src="js/comic.js"></script>
+    <script src="js/interactives.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
